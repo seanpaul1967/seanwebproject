@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+
+.cursor{
+    cursor: url("cursor.JPG"), pointer;
+}
+.container{
+
+display: flex;
+justify-content: center;
+
+}
+
+.container2{
+display: flex;
+min-height: 100bvh;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+ a:link,a:visited {
+background-color: rgb(51, 255, 0);
+color: rgb(234, 243, 234);
+border: 2px solid yellow;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover,a:active
+{
+
+ background-color:rgb(51, 255, 0);
+ color:whitesmoke;
+}
+
+
+ .body{  
+
+     background-image: url("050.JPG"); 
+      -webkit-background-size: cover; 
+     -moz-background-size: cover; 
+     -o-background-size: cover; 
+      background-size: cover; 
+    
+    
+}
+
+.body2{
+
+background-image: url("010.JPG");
+-webkit-background-size: cover; 
+     -moz-background-size: cover; 
+     -o-background-size: cover; 
+      background-size: cover; 
+}
+h1{
+    font-family: 'Londrina Solid', cursive;
+    color: yellow;
+
+}
+p{
+     background-color: rgba(0, 0, 0, 0.8); 
+    font-size-adjust: 80px;
+}
+
+po
+
+*h1 {
+color: yellow;
+font-size-adjust: 300px;
+}
+.center{
+    text-align: center;
+}
+
+h2{
+
+    color:yellow;
+    font-size-adjust: 150px;
+}
+
+h3{
+
+    color:yellow;
+    font-size-adjust: 100px;
+}
+
+h4{
+
+    color:yellow;
+    font-size-adjust: 80px;
+}
+
+#para1{ font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 254, 254);
+    font-size-adjust: 90px;
+}
+
+p{ font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 254, 254); 
+    font-size-adjust: 90px;
+    margin:10px 10px 10px 10px
+}
+*{
+    box-sizing: border-box;
+    padding: 20px 30px 20px 30px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+ .button{ 
+
+ border: 2px solid yellow; 
+ bottom: 2px;color: rgb(244, 248, 11); 
+ /* display: inline-block;  */
+ font-weight: bold; 
+ height: 44px; 
+ padding: 10px 20px 10px 20px; 
+  /* position: relative;   */
+ text-align: center; 
+text-decoration: none; 
+  /* vertical-align: middle;  */
+  /* width: 200px;  */ 
+ border-radius: 100px; 
+
+
+}
